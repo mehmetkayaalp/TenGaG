@@ -3,7 +3,7 @@ from django.db import models
 
 class CommentInfo (models.Model):
 
-    commentName = models.TextField(max_length=200)
+    commentContent = models.TextField(max_length=200)
 #   date = models.DateField(auto_now_add=True)
 
 # class Vote (models.Model):
